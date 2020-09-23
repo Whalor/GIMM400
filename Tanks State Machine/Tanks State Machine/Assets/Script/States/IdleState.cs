@@ -24,8 +24,10 @@ namespace Assets.Script.States
         public override bool EnterState()
         {
            EnteredState = base.EnterState();
+            
             if (EnteredState)
             {
+                
                 UnityEngine.Debug.Log("Entered Idle State");
                 _totalDuration = 0f;
 
