@@ -178,6 +178,8 @@ MonoBehaviour:
   rotationSpeed: 3
   rotateSpeed: 0
   floor: {fileID: 0}
+  fuelBurnRate: 1
+  playerFuel: {fileID: 0}
 --- !u!114 &750680383
 MonoBehaviour:
   m_ObjectHideFlags: 0
