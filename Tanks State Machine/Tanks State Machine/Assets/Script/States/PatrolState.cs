@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using UnityEngine;
+using UnityEngine.Animations;
 
 namespace Assets.Script.States
 {
@@ -13,6 +14,9 @@ namespace Assets.Script.States
     {
         WayPoints[] _patrolPoints;
         int _patrolPointIndex;
+        Transform playerPos;
+        float playerDist = 30.0f;
+        float viewAngle = 40.0f;
 
         public override void OnEnable()
         {
@@ -46,6 +50,7 @@ namespace Assets.Script.States
                     }
                       SetDestination(_patrolPoints[_patrolPointIndex]);
                       EnteredState = true;
+                    UnityEngine.Debug.Log("Patrolling");
 
                 }
 
@@ -58,12 +63,30 @@ namespace Assets.Script.States
             //need to make sure entered state
             if (EnteredState)
             {
-                //logic
-                if(Vector3.Distance(_navMeshAgent.transform.position, _patrolPoints[_patrolPointIndex].transform.position) <= 1f)
+                //get PlayerPos
+                playerPos = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+                //get Distance from player
+                Vector3 direction = _navMeshAgent.transform.position - playerPos.position;
+                float angle = Vector3.Angle(direction, _navMeshAgent.transform.forward);
+                if (direction.magnitude < playerDist && angle < viewAngle)
+                {
+                    _fsm.EnterState(FSMStateType.CHASE);
+
+                }else if (Vector3.Distance(_navMeshAgent.transform.position, _patrolPoints[_patrolPointIndex].transform.position) <= 1f)
                 {
                     _fsm.EnterState(FSMStateType.IDLE);
                 }
             }
+        }
+
+        public override bool ExitState()
+        {
+            base.ExitState();
+
+            playerPos = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+            _navMeshAgent.SetDestination(playerPos.position);
+
+            return true;
         }
 
         private void SetDestination(WayPoints destination)

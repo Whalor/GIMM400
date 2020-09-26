@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Navpoints
   - Waypoint
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -17,6 +17,7 @@ public enum FSMStateType
 {
     IDLE,
     PATROL,
+    CHASE,
 }
 
 

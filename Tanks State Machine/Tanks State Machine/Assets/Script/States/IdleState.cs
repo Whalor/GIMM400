@@ -41,7 +41,7 @@ namespace Assets.Script.States
             {
                 _totalDuration += Time.deltaTime;
                
-              UnityEngine.Debug.Log("Updating Idle State:" +_totalDuration+"seconds");
+              UnityEngine.Debug.Log("Updating Idle State");
                 
                 if(_totalDuration>= _idleDuration)
                 {
