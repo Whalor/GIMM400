@@ -1,0 +1,790 @@
+﻿Log file open, 12/16/20 03:44:32
+LogInit: Display: Running engine for game: IceCubeGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.282511
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Engine.ini]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Engine.ini]
+[2020.12.16-10.44.32:964][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Engine.ini]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Engine.ini]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.12.16-10.44.32:964][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Engine.ini]
+[2020.12.16-10.44.32:964][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Engine.ini]
+[2020.12.16-10.44.32:968][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.16-10.44.32:968][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.16-10.44.32:969][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.16-10.44.32:970][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.16-10.44.32:970][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.12.16-10.44.32:970][  0]LogHAL: Display: Platform has ~ 16 GB [16995201024 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.12.16-10.44.32:970][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.16-10.44.32:970][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.16-10.44.32:970][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.16-10.44.32:971][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:971][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Scalability.ini]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.16-10.44.32:972][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.12.16-10.44.32:973][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.12.16-10.44.32:973][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.12.16-10.44.32:973][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.12.16-10.44.32:973][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Config/Windows/Engine.ini]
+[2020.12.16-10.44.32:973][  0]LogInit: Computer: DESKTOP-B95G0DB
+[2020.12.16-10.44.32:973][  0]LogInit: User: bewha
+[2020.12.16-10.44.32:973][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.12.16-10.44.32:973][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.16-10.44.32:973][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2020.12.16-10.44.32:973][  0]LogMemory: Platform Memory Stats for Windows
+[2020.12.16-10.44.32:973][  0]LogMemory: Process Physical Memory: 114.41 MB used, 114.41 MB peak
+[2020.12.16-10.44.32:973][  0]LogMemory: Process Virtual Memory: 96.21 MB used, 96.21 MB peak
+[2020.12.16-10.44.32:973][  0]LogMemory: Physical Memory: 6834.41 MB used,  9373.47 MB free, 16207.89 MB total
+[2020.12.16-10.44.32:973][  0]LogMemory: Virtual Memory: 5144.90 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.12.16-10.44.32:983][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.12.16-10.44.33:059][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.12.16-10.44.33:060][  0]LogInit: Using OS detected language (en-US).
+[2020.12.16-10.44.33:060][  0]LogInit: Using OS detected locale (en-US).
+[2020.12.16-10.44.33:064][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.12.16-10.44.33:421][  0]LogInit: Setting process to per monitor DPI aware
+[2020.12.16-10.44.33:485][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.12.16-10.44.33:485][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.12.16-10.44.33:757][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.16-10.44.33:757][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.16-10.44.33:757][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.16-10.44.33:757][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.16-10.44.33:963][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2020.12.16-10.44.33:964][  0]LogD3D11RHI:       1979/0/8103 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.12.16-10.44.33:981][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.12.16-10.44.33:981][  0]LogD3D11RHI:       128/0/8103 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.12.16-10.44.33:984][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.16-10.44.33:984][  0]LogD3D11RHI:       0/0/8103 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.16-10.44.33:984][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.16-10.44.33:993][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.16-10.44.33:993][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2020.12.16-10.44.33:993][  0]LogWindows: EnumDisplayDevices:
+[2020.12.16-10.44.33:994][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.12.16-10.44.33:994][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.12.16-10.44.33:995][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.12.16-10.44.33:995][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.12.16-10.44.33:995][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2020.12.16-10.44.33:995][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.12.16-10.44.33:995][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.12.16-10.44.33:995][  0]LogRHI: Texture pool is 1385 MB (70% of 1979 MB)
+[2020.12.16-10.44.34:120][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.12.16-10.44.34:120][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.16-10.44.34:120][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.12.16-10.44.34:145][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.12.16-10.44.34:601][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.12.16-10.44.34:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.12.16-10.44.34:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.12.16-10.44.34:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.12.16-10.44.34:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.12.16-10.44.34:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.12.16-10.44.34:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.12.16-10.44.34:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.12.16-10.44.34:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.12.16-10.44.34:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.12.16-10.44.34:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.12.16-10.44.34:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.12.16-10.44.34:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.12.16-10.44.34:688][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.12.16-10.44.34:702][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.12.16-10.44.34:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.12.16-10.44.34:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.12.16-10.44.34:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.12.16-10.44.34:753][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.12.16-10.44.34:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.12.16-10.44.34:808][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.12.16-10.44.34:808][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.12.16-10.44.34:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.12.16-10.44.34:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.12.16-10.44.34:842][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.12.16-10.44.34:854][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.12.16-10.44.34:867][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.12.16-10.44.34:881][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.12.16-10.44.34:881][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.12.16-10.44.34:894][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.12.16-10.44.34:978][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Intermediate/Shaders/WorkingDirectory/7244/).
+[2020.12.16-10.44.34:978][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bewha/AppData/Local/Temp/UnrealShaderWorkingDir/11947E064F3471A191F4D484B8F10B04/'.
+[2020.12.16-10.44.34:979][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.12.16-10.44.34:979][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.12.16-10.44.34:979][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.12.16-10.44.36:145][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.12.16-10.44.36:256][  0]LogDerivedDataCache: Loaded boot cache 0.11s 75MB C:/Users/bewha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.16-10.44.36:256][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/bewha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.12.16-10.44.36:256][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.12.16-10.44.36:256][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.12.16-10.44.36:256][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.16-10.44.36:256][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.12.16-10.44.36:272][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.16-10.44.36:272][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.16-10.44.36:272][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.12.16-10.44.36:274][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bewha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.12.16-10.44.36:274][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.12.16-10.44.36:274][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.12.16-10.44.36:343][  0]LogSlate: Using FreeType 2.10.0
+[2020.12.16-10.44.36:343][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.12.16-10.44.36:378][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
+[2020.12.16-10.44.36:730][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.16-10.44.36:950][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.12.16-10.44.36:950][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.12.16-10.44.36:950][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.12.16-10.44.36:950][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.12.16-10.44.36:950][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.12.16-10.44.36:973][  0]LogNetVersion: IceCubeGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 472603815)
+[2020.12.16-10.44.37:578][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D9D363C280), frame # 0
+[2020.12.16-10.44.37:578][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D9D3573740), frame # 0
+[2020.12.16-10.44.37:579][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D9D35D1E00), frame # 0
+[2020.12.16-10.44.37:677][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.090140 seconds
+[2020.12.16-10.44.37:684][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.12.16-10.44.37:684][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.12.16-10.44.37:684][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.12.16-10.44.38:139][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.12.16-10.44.38:144][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.12.16-10.44.38:271][  0]SourceControl: Source control is disabled
+[2020.12.16-10.44.38:272][  0]SourceControl: Source control is disabled
+[2020.12.16-10.44.38:277][  0]SourceControl: Source control is disabled
+[2020.12.16-10.44.38:280][  0]SourceControl: Source control is disabled
+[2020.12.16-10.44.38:293][  0]SourceControl: Source control is disabled
+[2020.12.16-10.44.38:662][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.12.16-10.44.38:699][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.16-10.44.38:699][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.16-10.44.38:784][  0]LogOcInput: OculusInput pre-init called
+[2020.12.16-10.44.38:802][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.12.16-10.44.38:802][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.12.16-10.44.38:894][  0]LogEngine: Initializing Engine...
+[2020.12.16-10.44.38:895][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.16-10.44.38:896][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.12.16-10.44.38:897][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.12.16-10.44.39:096][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.12.16-10.44.39:109][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.12.16-10.44.39:109][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D9D5E13C00), frame # 0
+[2020.12.16-10.44.39:109][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D9D5EA6480), frame # 0
+[2020.12.16-10.44.39:141][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.16-10.44.39:141][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.16-10.44.39:141][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.16-10.44.39:141][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.16-10.44.39:141][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.16-10.44.39:141][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.16-10.44.39:141][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.16-10.44.39:141][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.16-10.44.39:142][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.16-10.44.39:142][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.16-10.44.39:182][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.16-10.44.39:182][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.12.16-10.44.39:245][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.12.16-10.44.39:249][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.16-10.44.39:252][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.16-10.44.39:252][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.16-10.44.39:253][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.16-10.44.39:254][  0]LogInit: FAudioDevice initialized.
+[2020.12.16-10.44.39:254][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.12.16-10.44.39:313][  0]LogDerivedDataCache: Saved boot cache 0.06s 75MB C:/Users/bewha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.16-10.44.39:317][  0]LogInit: Texture streaming: Enabled
+[2020.12.16-10.44.39:341][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.12.16-10.44.39:341][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.12.16-10.44.39:343][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.12.16-10.44.39:413][  0]LogInit: Transaction tracking system initialized
+[2020.12.16-10.44.39:441][  0]BlueprintLog: New page: Editor Load
+[2020.12.16-10.44.39:527][  0]LocalizationService: Localization service is disabled
+[2020.12.16-10.44.39:767][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.12.16-10.44.39:767][  0]LogCook: Display: Mobile HDR setting 1
+[2020.12.16-10.44.39:946][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Content/' took 0.01s
+[2020.12.16-10.44.40:240][  0]SourceControl: Source control is disabled
+[2020.12.16-10.44.40:240][  0]LogUnrealEdMisc: Loading editor; pre map load, took 10.125
+[2020.12.16-10.44.40:241][  0]Cmd: MAP LOAD FILE="../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.16-10.44.40:241][  0]LightingResults: New page: Lighting Build
+[2020.12.16-10.44.40:242][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-10.44.40:242][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-10.44.40:243][  0]MapCheck: New page: Map Check
+[2020.12.16-10.44.40:243][  0]LightingResults: New page: Lighting Build
+[2020.12.16-10.44.40:254][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D9D5E13C00), frame # 0
+[2020.12.16-10.44.40:254][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D9D5EA6480), frame # 0
+[2020.12.16-10.44.40:255][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.12.16-10.44.40:610][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.16-10.44.40:610][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D9C621BE00), frame # 0
+[2020.12.16-10.44.40:610][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D9C6280E00), frame # 0
+[2020.12.16-10.44.40:618][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.16-10.44.40:635][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.12.16-10.44.40:636][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.16-10.44.40:637][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.731ms to complete.
+[2020.12.16-10.44.40:637][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.396
+[2020.12.16-10.44.40:645][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.528
+[2020.12.16-10.44.40:789][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-10.44.40:799][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-10.44.40:811][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-10.44.40:821][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.16-10.44.40:829][  0]LogCollectionManager: Loaded 0 collections in 0.002661 seconds
+[2020.12.16-10.44.40:853][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Collections/' took 0.00s
+[2020.12.16-10.44.40:853][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Content/Developers/bewha/Collections/' took 0.00s
+[2020.12.16-10.44.40:853][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bewha/Desktop/Unreal project/IceCubeGame/Content/Collections/' took 0.00s
+[2020.12.16-10.44.40:853][  0]LogContentBrowser: Native class hierarchy populated in 0.0165 seconds. Added 3427 classes and 821 folders.
+[2020.12.16-10.44.40:857][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.12.16-10.44.40:946][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.12.16-10.44.40:947][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.12.16-10.44.41:004][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.12.16-10.44.41:009][  0]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.12.16-10.44.41:016][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.12.16-10.44.41:120][  0]LogRenderer: Reallocating scene render targets to support 1384x676 Format 10 NumSamples 1 (Frame:1).
+[2020.12.16-10.44.41:567][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.12.16-10.44.41:567][  0]LogLoad: (Engine Initialization) Total time: 11.45 seconds
+[2020.12.16-10.44.41:567][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.12.16-10.44.41:642][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.12.16-10.44.41:847][  1]LogAssetRegistry: Asset discovery search completed in 5.4704 seconds
+[2020.12.16-10.44.41:857][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2020.12.16-10.45.46:082][799]LogActorFactory: Actor Factory created Sphere
+[2020.12.16-10.45.47:700][887]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.12.16-10.45.47:707][887]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.16-10.45.51:160][ 82]LogSlate: Window 'Advanced Copy Asset Report' being destroyed
+[2020.12.16-10.45.58:835][521]LogStaticMesh: Building static mesh Sphere...
+[2020.12.16-10.45.58:878][521]LogStaticMesh: Built static mesh [0.04s] /Game/ThirdPersonBP/Blueprints/Sphere.Sphere
+[2020.12.16-10.46.03:763][778]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/ThirdPersonBP/Blueprints/Sphere.Sphere
+[2020.12.16-10.46.04:438][778]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-10.46.04:438][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-10.46.04:712][778]LogRenderer: Reallocating scene render targets to support 1384x684 Format 10 NumSamples 1 (Frame:1).
+[2020.12.16-10.46.04:712][778]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.12.16-10.46.08:394][901]LogSlate: Window 'Sphere' being destroyed
+[2020.12.16-10.46.08:409][901]LogSlate: Window 'Sphere' being destroyed
+[2020.12.16-10.46.08:440][901]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.12.16-10.46.08:440][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.16-10.46.19:167][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.12.16-10.46.20:945][480]LogSlate: Window 'Delete Assets' being destroyed
+[2020.12.16-10.46.21:048][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2020.12.16-10.47.30:448][891]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.12.16-10.48.11:777][151]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/Pickup_Base.Pickup_Base
+[2020.12.16-10.48.12:023][151]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 125 classes and 0 folders.
+[2020.12.16-10.48.17:017][311]LogSlate: Took 0.000604 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.12.16-10.54.42:190][988]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2020.12.16-10.54.42:192][988]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.073
+[2020.12.16-10.54.42:193][988]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Pickup_Base] ([1] browsable assets)...
+[2020.12.16-10.54.42:208][988]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Pickup_Base.Pickup_Base]
+[2020.12.16-10.54.42:208][988]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Pickup_Base]
+[2020.12.16-10.54.42:240][988]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Pickup_Base_Auto1D1FE355C45EA0AA19056558019692A8D.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Pickup_Base_Auto1.uasset'
+[2020.12.16-10.54.42:242][988]LogFileHelpers: Auto-saving content packages took 0.049
+[2020.12.16-10.55.07:726][700]Cmd: SELECT NONE
+[2020.12.16-10.55.08:668][741]Cmd: SELECT NONE
+[2020.12.16-10.55.25:854][408]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.12.16-10.55.25:899][408]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap0B303F154B13B6FFB3B556BC93F2BF5E.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.12.16-10.55.26:135][408]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap_BuiltData41ED098E4B0CEC8EE855B0B15CC6F7F4.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.16-10.55.26:159][408]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.16-10.55.26:159][408]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.16-10.55.26:159][408]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.16-10.55.34:346][579]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.12.16-10.55.34:382][579]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMapE595F01042C321DC97FDFFBEA6C07400.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.12.16-10.55.34:554][579]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap_BuiltData0DA7F4504D75886D25E89DB5460AF504.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.16-10.55.34:576][579]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.16-10.55.34:576][579]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.16-10.55.34:576][579]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.16-10.55.35:380][605]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.12.16-10.55.35:415][605]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMapD37896854BA7E2F939F7F198F77455DE.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.12.16-10.55.35:629][605]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap_BuiltData181532A2474E81F4375142B41A009E9F.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.16-10.55.35:650][605]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.16-10.55.35:650][605]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.16-10.55.35:650][605]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.16-10.55.35:840][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.12.16-10.55.35:882][607]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap8B9608004064BA294E1ABDB4BBFD57FD.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.12.16-10.55.36:094][607]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap_BuiltDataF7A4F6B740A340116224D8B87DE453E2.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.16-10.55.36:114][607]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.16-10.55.36:114][607]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.16-10.55.36:114][607]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.16-10.55.37:013][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.12.16-10.55.37:044][639]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap1BC38F574D129B8377180888D8CF92A7.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.12.16-10.55.37:236][639]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap_BuiltDataCBAA45644AC810ED7C7BBCBC1A2FC712.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.16-10.55.37:258][639]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.16-10.55.37:258][639]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.16-10.55.37:258][639]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.16-10.55.37:359][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.12.16-10.55.37:403][641]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMapFFFCC30F46449AB8FAA8F29EE26ED2E5.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.12.16-10.55.37:594][641]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap_BuiltData0832CE20407954C7DF7A2F8C52F7470D.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.16-10.55.37:614][641]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.16-10.55.37:614][641]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.16-10.55.37:614][641]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.16-10.55.37:711][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.12.16-10.55.37:745][643]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMapBC24BC6F45066BAD8E7177A06BCC5B3F.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.12.16-10.55.37:930][643]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap_BuiltData65BE3598470DA19E5DAE3C9CE91078C9.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.16-10.55.37:954][643]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.16-10.55.37:954][643]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.16-10.55.37:954][643]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.16-10.55.38:112][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.12.16-10.55.38:149][647]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap94AB33C0471667ED48D491A95B53DF7A.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.12.16-10.55.38:340][647]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap_BuiltData6072F2D9460246714E9247B62CC81364.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.16-10.55.38:365][647]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.16-10.55.38:365][647]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.16-10.55.38:365][647]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.16-10.55.38:754][659]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.12.16-10.55.38:784][659]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap37229CEF4AF7F61CF7353B94C0917283.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.12.16-10.55.38:985][659]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap_BuiltData7180205241B32F01E27930B0AFE95931.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.16-10.55.39:008][659]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.16-10.55.39:008][659]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.16-10.55.39:008][659]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.16-10.55.42:429][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.12.16-10.55.42:465][745]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMapF4F189DB4E770AFE56AC4EBF187C5FEF.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.12.16-10.55.42:655][745]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap_BuiltData855054E9406585C9A5BA03B3A9667DB3.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.16-10.55.42:682][745]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.16-10.55.42:682][745]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.16-10.55.42:683][745]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.16-10.55.42:791][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.12.16-10.55.42:822][746]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap5EF7FB2A478DED101A2DB286C32626D2.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.12.16-10.55.43:022][746]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap_BuiltData3C597F2A494624A1A1FA2F81540D317A.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.16-10.55.43:049][746]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.16-10.55.43:049][746]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.16-10.55.43:049][746]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.16-10.55.43:161][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.12.16-10.55.43:198][747]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap21859C3D4DF31CC34463539DEB222C9A.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.12.16-10.55.43:398][747]LogSavePackage: Moving '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Saved/ThirdPersonExampleMap_BuiltData59D4E5944ED067BDCE710D93BB028959.tmp' to '../../../../../../Users/bewha/Desktop/Unreal project/IceCubeGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.16-10.55.43:422][747]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.16-10.55.43:422][747]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.16-10.55.43:422][747]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.16-10.55.48:775][978]LogWindowsDesktop: Alt-F4 pressed!
+[2020.12.16-10.55.48:816][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.12.16-10.55.53:935][978]LogSlate: Window 'Save Content' being destroyed
+[2020.12.16-10.55.56:073][978]LogRHI: Error: Present Fail Count 1
+[2020.12.16-10.55.56:073][978]LogRHI: Error: SyncInterval 0
+[2020.12.16-10.55.56:073][978]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1068
+[2020.12.16-10.55.56:073][978]LogRHI: Error: SwapChainDesc.BufferDesc.Height 760
+[2020.12.16-10.55.56:073][978]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.12.16-10.55.56:073][978]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.12.16-10.55.56:073][978]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.12.16-10.55.56:073][978]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.12.16-10.55.56:073][978]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.12.16-10.55.56:074][978]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.12.16-10.55.56:074][978]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.12.16-10.55.56:074][978]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.12.16-10.55.56:074][978]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.12.16-10.55.56:074][978]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000250536
+[2020.12.16-10.55.56:074][978]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.12.16-10.55.56:074][978]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.12.16-10.55.56:074][978]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.12.16-10.55.59:743][978]LogWindowsDesktop: Alt-F4 pressed!
+[2020.12.16-10.55.59:790][978]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.12.16-10.55.59:792][978]LogWindowsDesktop: Alt-F4 pressed!
+[2020.12.16-10.55.59:840][978]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.12.16-10.55.59:850][978]LogD3D11RHI: Error: D3DRHI->GetFactory()->CreateSwapChain(DXGIDevice, &SwapChainDesc, SwapChain.GetInitReference()) failed 
+ at D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/Windows/WindowsD3D11Viewport.cpp:212 
+ with error DXGI_ERROR_DEVICE_REMOVED 00000000
+[2020.12.16-10.55.59:850][978]LogD3D11RHI: [Aftermath] GDynamicRHI=000001D9B18180C0, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2020.12.16-10.55.59:850][978]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.12.16-10.55.59:850][978]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.12.16-10.56.03:032][978]LogWindows: FPlatformMisc::RequestExit(0)
+[2020.12.16-10.56.03:032][978]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.12.16-10.56.03:033][978]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.12.16-10.56.03:033][978]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
+[2020.12.16-10.56.03:042][978]Log file closed, 12/16/20 03:56:03
